@@ -1,0 +1,233 @@
+.my-nav {
+  background-color: #ffffff !important;
+  border-bottom: 1px solid #ebe7d9;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+.dinner-body {
+  background-color: #fffbec;
+}
+.logo-icon {
+  margin-left: 8.5rem;
+}
+.my-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2rem;
+}
+.slogan {
+  font-size: 0.875rem;
+}
+.icon-1 {
+  background: linear-gradient(45deg, #ff5c00, #fe4328);
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+.icon-1 i {
+  color: #ffffff;
+}
+
+.nav-icon {
+  margin-right: 9rem;
+}
+.n-icon {
+  font-size: 1.3rem;
+  color: #4a5565;
+}
+.avt-img img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  border: 0.2rem solid #ffb86a;
+}
+.sec-img {
+  overflow: hidden;
+  height: 50rem;
+}
+.container {
+  width: 80%;
+}
+.sec-img img {
+  object-fit: cover;
+  object-position: center;
+  height: 50rem
+}
+
+/* wrapper like screenshot */
+.recipe-img-wrap{
+  background:#f4f5f7;
+  border: 1px solid #eee;
+}
+
+/* badge top-left */
+.rating-badge{
+  background: #fff;
+  border-radius: 999px;
+  padding: 10px 14px;
+  box-shadow: 0 10px 22px rgba(0,0,0,.12);
+  font-size: 14px;
+  display: inline-flex;
+  align-items: center;
+}
+.rating-badge i{
+  color:#f6b100; /* star */
+}
+
+/* stats card bottom */
+.stats-card{
+  bottom: 14px;
+  max-width: 92%;
+}
+
+/* icons size */
+.stat-icon{
+  font-size: 20px;
+  line-height: 1;
+}
+
+.dinner-body .right-side {
+  background-color: #ffffff;
+  height: 50rem;
+  overflow-y: auto;
+}
+.N-span {
+  background-color: #dbfce7;
+  border-radius: 0.75rem;
+  color: #008236;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.T-span {
+  background-color: #dbeafe;
+  border-radius: 0.75rem;
+  color: #1447e6;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+.content-title .l-t h1{
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+.content-title .l-t p{
+    font-size: 1.125rem;
+    color: #4A5565; 
+    
+}
+.R-t span{
+   padding: .625rem;
+    border-radius: .75rem;
+    background-color: #FFD6A7;
+    color:#F54900;
+}
+
+.recipe-tabs {
+  --accent: #ff5a1f; 
+}
+.recipe-tabs .nav-underline .nav-link {
+  border: 0;
+  color: #6c757d;            
+  font-weight: 600;
+  padding: 12px 0;
+}
+.recipe-tabs .nav-underline .nav-link:hover {
+  color: var(--accent);
+}
+
+.recipe-tabs .nav-underline .nav-link.active {
+  color: var(--accent);
+  border-bottom: 2px solid var(--accent); 
+}
+.recipe-tabs .nav-underline .nav-link i {
+  font-size: 14px;
+}
+
+.ingredients-card{
+  background: #fbf6ea;        
+}
+
+.ing-num{
+  width: 28px;
+  height: 28px;
+  background: #ff6a00;       
+  color: #fff;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1;
+}
+
+.instructions-card{
+  background: #f5f6f7;   /* الرمادي الفاتح زي الصورة */
+  max-height: 360px;     /* يخليها scroll لو زادت */
+  overflow-y: auto;
+}
+
+/* step number */
+.step-num{
+  width: 42px;
+  height: 42px;
+  background: #ff6a00;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 14px; /* نفس شكل الصندوق المدور */
+  font-size: 15px;
+}
+
+/* text */
+.instructions-list p{
+  color: #4b5563;
+  line-height: 1.7;
+  font-weight: 500;
+}
+/* card background زي الصورة */
+.nutrition-item{
+  background: #f4f5f7;
+}
+
+/* icon box */
+.nutri-icon{
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+/* tip card */
+.tip-item{
+  background: #fbf6ea;      /* نفس الكريمي */
+  border-left: 4px solid #ff6a00; /* الخط البرتقالي */
+  font-weight: 500;
+}
+
+/* check icon */
+.tip-icon{
+  width: 26px;
+  height: 26px;
+  background: #ff6a00;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+.recipe-btn{
+  background: linear-gradient(135deg, #E80008, #FF6700);
+  border: none;
+  box-shadow: 0 6px 14px rgba(232,0,8,.25);
+  transition: all .25s ease;
+}
+
+/* hover */
+.recipe-btn:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 10px 18px rgba(232,0,8,.35);
+  background: linear-gradient(135deg, #c40006, #ff5a00);
+}
+
+/* click */
+.recipe-btn:active{
+  transform: scale(.98);
+}
