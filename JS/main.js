@@ -3,7 +3,7 @@ const Recipes = [
     title: "Mediterranean Quinoa Bowl",
     rating: 4.5,
     reviews: 156,
-    img: "../Images/imgi_2_photo-1546069901-ba9599a7e63c.jfif",
+    img: "./Images/imgi_2_photo-1546069901-ba9599a7e63c.jfif",
     description: "Healthy bowl with quinoa, vegetables, and tahini dressing",
     prepTime: 20,
     cookTime: 35,
@@ -49,7 +49,7 @@ const Recipes = [
     title: "Pad Thai",
     rating: 4.8,
     reviews: 445,
-    img: "../Images/imgi_2_photo-1559314809-0d155014e29e (1).jfif",
+    img: "./Images/imgi_2_photo-1559314809-0d155014e29e (1).jfif",
     description: "Popular Thai stir-fried noodles with shrimp and peanuts",
     prepTime: 20,
     cookTime: 15,
@@ -96,7 +96,7 @@ const Recipes = [
     title: "Chicken Stir-Fry",
     rating: 4.5,
     reviews: 324,
-    img: "../Images/imgi_2_photo-1603133872878-684f208fb84b.jfif",
+    img: "./Images/imgi_2_photo-1603133872878-684f208fb84b.jfif",
     description: "Quick and healthy stir-fry with colorful vegetables",
     prepTime: 15,
     cookTime: 15,
@@ -142,7 +142,7 @@ const Recipes = [
     title: "Beef Tacos",
     rating: 4.6,
     reviews: 278,
-    img: "../Images/imgi_2_photo-1565299585323-38d6b0865b47.jfif",
+    img: "./Images/imgi_2_photo-1565299585323-38d6b0865b47.jfif",
     description: "Flavorful Mexican tacos with seasoned ground beef",
 
     prepTime: 15,
@@ -192,7 +192,7 @@ const Recipes = [
     title: "Chicken Tikka Masala",
     rating: 4.7,
     reviews: 389,
-    img: "../Images/imgi_2_photo-1565557623262-b51c2513a641 (1).jfif",
+    img: "./Images/imgi_2_photo-1565557623262-b51c2513a641 (1).jfif",
     description: "Rich and creamy Indian curry with tender chicken pieces",
 
     prepTime: 20,
@@ -244,7 +244,8 @@ const Recipes = [
 
 function changeRecipes() {
   var randomIndex = Math.floor(Math.random() * Recipes.length);
-
+console.log("randomIndex:", randomIndex);
+console.log("img:", Recipes[randomIndex].img);
   let ingredients = "";
   let instructions = "";
   let ChefTips = "";
